@@ -1,6 +1,7 @@
 const globals = require('../lib/globals');
 const QlikAuth = require('../lib/qlik-auth').QlikAuth;
-var KeycloakStrategy = require('@exlinc/keycloak-passport');
+// var KeycloakStrategy = require('@exlinc/keycloak-passport');
+var KeycloakStrategy = require('/Users/goran/code/keycloak-passport');
 
 // --------------------------------------------------------
 // Using auth library: https://github.com/exlinc/keycloak-passport
